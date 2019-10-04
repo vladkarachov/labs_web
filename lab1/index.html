@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>test</title>
+        <link href="style/main.css" rel="stylesheet">
+</head>
+
+<body>
+      
+	<header class='headerlogo'>
+		<div class = 'logo'>
+                <img src="logo.jpg" width="50" height="50" alt = 'logo'>
+                </div >
+                <div class = pageheader>
+                <h1>PhoneFind</h1>
+                <nav>
+                        <a href='index.html'>Main Page</a>
+                        <a href="phones.html">Phones</a>                      
+                        <a href="about.html">About us</a>
+                        <a href="contact.html">Contact</a>
+                        <a href='login.html'>Login/Singup</a>
+                </nav>
+                <form class = 'searchform'>
+                        <input type='text' placeholder='Search...' id = 'search' maxlength="20">
+                        <input type="submit" value="Search">
+                </form>
+                </div>
+        </header>
+        <main>
+                <div class = "big_wrapper">
+                     <b>How much do you want to spend on your next smartphone? </b>
+                       <form oninput="searchPrice.value=parseInt(tel_price.value)"> 
+                                <input type="range" value="200" id="tel_price" min="50" max="1500">
+                                <output name = "searchPrice" for="tel_price">200</output> 
+                                <button type="submit">Search price</button>
+                       </form>       
+                </div>
+                <div class="top_block">
+                <h3>Best Sellers</h3>
+                 
+                <ul class = "PhoneList">
+                        <li>Redmi Note 7</li>
+                        <li> Xiaomi Mi 9T Pro</li>
+                        <li> Xiaomi Mi 9</li>
+                        <li>Xiaomi Mi 9T</li>
+                        <li>Redmi Note 8 Pro</li>                   
+                </ul>
+                <article class="topphone">
+                             <h3>Top user satisfaction</h3>
+                                <article>
+                                    <b>Xiaomi Mi 9T</b>
+                                    <p>€ 251</p>
+                                </article>
+                                <article >
+                                    <b>Xiaomi Mi 9T Pro</b>
+                                    <p>€ 339</p>
+                                </article>
+                                <article>
+                                    <b>OnePlus 6</b>
+                                    <p>€ 440</p>
+                                </article>
+                            </article>
+               
+                <section>
+                        <figure>
+                                <p><a href="page.html"><img src= "pic\pixel.webp" height="200" alt="google pixel"></a></p>
+                                <figcaption>
+                                        Google pixel 3a
+                                </figcaption>
+                        </figure>
+                </section>
+                </div>
+                 <div class=This_should_be_deleted >
+                        <table>
+                                <caption>
+                                        hate tables
+                                </caption>
+                                <tr>
+                                        <th colspan="2" rowspan="2">1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th rowspan="2">4</th>
+                                </tr>
+                                <tr>
+                                        <th>5</th>
+                                        <th>6</th>
+                                </tr>
+                                <tr>
+                                        <th colspan="5">9</th>
+                                       
+                                </tr>
+                                <tr>
+
+                                        <th>10</th>
+                                        <th>11</th>
+                                        <th colspan="3">12</th>
+                                </tr>
+                        </table>
+                        <div>
+                                        <p></p><iframe width="560" height="315" src="https://www.youtube.com/embed/iLtWyLVjDg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        
+                        </div>
+                </div>         
+        </main>
+        <footer>
+                <p>Vlad Karachev</p>
+                
+                <p>created at <time datetime="2019-09-30">sep 30</time></p>
+        </footer>
+</body>
+</html>          

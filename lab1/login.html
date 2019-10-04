@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login page</title>
+</head>
+<body>
+    <h1>Log in</h1>
+        <form class="loginform" action="">
+                <p><label for="uname"><b>Username</b></label>
+               <input type="text" placeholder="Enter Username" id="uname" required maxlength="50"></p>
+            
+               <p> <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" id="psw" required maxlength="50"></p>    
+            
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember" > Remember me
+                </label>
+            </form>
+    <hr>
+    <h1>Sing up</h1>
+            <form class="loginform" action="">
+                    <p><label for="uname"><b>Username</b></label>
+                   <input type="text" placeholder="Enter Username" name="uname" required maxlength="50"></p>
+                
+                   <p> <label for="pswr"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" id="pswr" required maxlength="50"></p>
+                    <p> <label for="pswRE">Re enter password</label>
+                        <input type="password" placeholder="repeat password" id="pswRE" required maxlength="50"></p>        
+                   
+                    <div>
+                        <p>
+                            <b>Country</b>
+                            <select>
+                                <option>Ukraine</option>
+                                <option>North Korea</option>
+                            </select> 
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <b>Sex</b>
+                            <p><input type = "radio" name="sex" value="man">Man</p>
+                            <p><input type = "radio"  name="sex" value="woman">Woman</p>
+                        </p>
+                    </div>
+                    <button type="submit">Sing up</button>
+                    
+                </form>
+                       
+            
+</body>
+</html>
